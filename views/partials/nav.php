@@ -8,11 +8,11 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="/Laracasts/php-for-beginners" class="<?= urlIs("/Laracasts/php-for-beginners") ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"; ?> px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                        
-                        <a href="/Laracasts/php-for-beginners/about" class="<?= urlIs("/Laracasts/php-for-beginners/about") ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"; ?> px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="/php-for-beginners" class="<?= urlIs("/php-for-beginners") ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"; ?> px-3 py-2 rounded-md text-sm font-medium">Home</a>
 
-                        <a href="/Laracasts/php-for-beginners/contact" class="<?= urlIs("/Laracasts/php-for-beginners/contact") ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"; ?> px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        <a href="/php-for-beginners/about" class="<?= urlIs("/php-for-beginners/about") ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"; ?> px-3 py-2 rounded-md text-sm font-medium">About</a>
+
+                        <a href="/php-for-beginners/contact" class="<?= urlIs("/php-for-beginners/contact") ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"; ?> px-3 py-2 rounded-md text-sm font-medium">Contact</a>
                     </div>
                 </div>
             </div>
